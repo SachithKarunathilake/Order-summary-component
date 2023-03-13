@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow: hidden;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color:hsl(225, 100%, 94%);
+    text-align: center;   
+}
+
+main{
+    width: 90%;
+    margin:30px auto;
+    border-radius:10px;
+    box-shadow: rgba(96, 63, 139, 0.2) 0px 8px 24px;
+    max-height: 608px;
+    max-width:392px;
+}
+
+.hero img{
+    width:100%;
+    display: block;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.description{
+    background-color: #fff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* padding:40px 30px; */
+    padding:40px 7%;
+}
+
+.description h1{
+    color:hsl(223, 47%, 23%);
+    font-weight:900;
+
+}
+
+.description p{
+    color:hsl(224, 23%, 55%);
+    line-height: 1.6em;
+    padding:20px 0;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:hsl(230, 75%, 98%);
+    border-radius: 12px;
+    height:70px;
+    margin:0 0 30px 0;
+}
+
+.plan img{
+    width:14%;
+}
+
+.description .plan h4{
+    color:hsl(223, 47%, 23%);
+}
+
+.description .plan a{
+    color:hsl(245, 75%, 52%);
+    font-weight:700;
+    font-size:15px;
+    margin:0 10px;
+}
+
+.description .plan a:hover{
+    cursor:ponter;
+    text-decoration: none;
+    color:hsl(245, 83%, 68%);
+}
+
+span{
+    color:hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+
+.proceed-btn{
+    border:none;
+    border-radius:12px;
+    background-color:hsl(245, 75%, 52%) ;
+    color:#fff;
+    width:100%;
+    height:50px;
+    font-size:15px;
+    font-weight:700;
+    margin: 0 0 20px 0;
+    box-shadow:rgba(104, 65, 152, 0.4) 0px 8px 24px;
+}
+
+.proceed-btn:hover{
+    cursor:pointer;
+    background-color:hsl(245, 83%, 68%) ;
+}
+
+.description .cancel-order{
+    color:hsl(224, 18%, 45%);
+    font-weight:900;
+}
+
+.description .cancel-order:hover{
+    cursor:pointer;
+    color:hsl(223, 47%, 23%);
+}
+
+@media(min-width:450px){
+    body{
+       background-image: url(images/pattern-background-desktop.svg); 
+       background-repeat: no-repeat;
+       /* background-position: top 50% left 50%; */
+       background-size: 100% 50%;
+       background-color: hsl(225, 100%, 94%);
+    }
+
+    main{
+        /* display: none; */
+    }
+}
