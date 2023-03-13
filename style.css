@@ -58,23 +58,28 @@ main{
     justify-content:space-around;
     background-color:hsl(230, 75%, 98%);
     border-radius: 12px;
-    height:70px;
+    height:80px;
     margin:0 0 30px 0;
+    
 }
 
 .plan img{
     width:14%;
+    margin:0 0 0 5%;
 }
 
 .description .plan h4{
     color:hsl(223, 47%, 23%);
+    line-height:1.6em;
+    /* font-size-adjust: 0.5; */
 }
 
 .description .plan a{
     color:hsl(245, 75%, 52%);
     font-weight:700;
     font-size:15px;
-    margin:0 10px;
+    /* margin:0 30px 0 55px ; */
+    margin:0 5% 0 20%;
 }
 
 .description .plan a:hover{
@@ -86,6 +91,7 @@ main{
 span{
     color:hsl(224, 23%, 55%);
     font-weight: 400;
+    
 }
 
 .proceed-btn{
@@ -120,12 +126,7 @@ span{
     body{
        background-image: url(images/pattern-background-desktop.svg); 
        background-repeat: no-repeat;
-       /* background-position: top 50% left 50%; */
        background-size: 100% 50%;
        background-color: hsl(225, 100%, 94%);
-    }
-
-    main{
-        /* display: none; */
     }
 }
